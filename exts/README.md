@@ -1,1 +1,0 @@
-These code are borrowed from https://github.com/kakaxi314/GuideNet
