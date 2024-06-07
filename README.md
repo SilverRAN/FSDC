@@ -95,6 +95,8 @@ After training the checkpoint will be saved in ./results/
 
 After training the checkpoint will also be saved in ./results/
 
+You can also directly download our pretrained DDPM checkpoint on KITTI dataset from [here](https://drive.google.com/file/d/1OEmQ0WZxJqj29KyrprzNDyrwbaqJohVf/view?usp=drive_link)
+
 ## Evaluation
 ### run
     accelerate launch main.py --path /Path/to/your/preprocessed_KITTI --mode eval --ddpm_ckpt /Path/to/trained/DDPM/checkpoint --fsdc_ckpt /Path/to/trained/FSDC/checkpoint
